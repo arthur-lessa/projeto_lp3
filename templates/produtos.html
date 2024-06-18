@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} Produtos {% endblock %} 
+
+{% block content %}
+    <p>
+        Confira os Produtos
+    </p>
+
+    {% for produto in produtos %}
+        <h2>{{ produto.nome }}</h2>
+        <p>{{ produto.descricao }}</p>
+    {% endfor %}
+{% endblock %}
+
+{% block footer %} {% endblock %}
