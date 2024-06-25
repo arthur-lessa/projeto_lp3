@@ -1,0 +1,11 @@
+label, import, textarea, button{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control{
+    margin-bottom: 7px;
+    align-items: center;
+    justify-content: center;
+}
